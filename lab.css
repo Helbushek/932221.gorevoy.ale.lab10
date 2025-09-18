@@ -1,0 +1,145 @@
+*
+{
+	margin: 0px;	
+	overflow: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+#veil
+{
+    position: fixed;
+	bottom: 0vh;
+	
+	height: 100vh;
+    width: auto;
+	
+	left: 50%;
+	transform: translate(-50%, 0%);
+	
+	z-index: 10;
+}
+
+#wizard
+{
+	position: fixed;
+	
+	height: 25vh;
+    width: auto;
+	
+	bottom: 5vh;
+	left: 50%;
+	transform: translate(-100%, 0%);
+	opacity: 0;
+	
+	z-index: 1;
+}
+
+#hat
+{
+	position: fixed;
+	
+	height: 16vh;
+    width: auto;
+
+	rotate: 180deg;
+	
+	bottom: 10vh;
+	left: 47%;
+	transform: translate(-10%, 0%);
+	opacity: 0;
+	
+	z-index: 1;
+}
+
+#thing
+{
+	position: fixed;
+	
+	height: 8vh;
+    width: auto;
+	
+	left: 50%;
+	transform: translate(60%, 0%);
+	opacity: 0;
+	
+	z-index: 0;
+}
+
+#thingEmpty
+{
+	position: fixed;
+	
+	height: 10vh;
+    width: 12vh;
+	
+	bottom: 30vh;
+	left: 50%;
+	transform: translate(50%, 0%);
+	
+	z-index: 5;
+}
+
+#lamp
+{
+	position: fixed;
+	
+	height: 30vh;
+    width: auto;
+	
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	
+	z-index: 1;
+}
+
+#lampRope
+{
+	position: fixed;
+	
+	height: 30vh;
+    width: auto;
+	
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	
+	z-index: 2;
+}
+
+#lampDisperial
+{
+	position: fixed;
+	
+	height: 30vh;
+    width: auto;
+	
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	
+	z-index: 4;
+}
+
+#light
+{
+	position: fixed;
+	
+	height: 10vh;
+    width: 5vh;
+	
+	top: 0px;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	
+	border: 40vh solid transparent; 
+	border-bottom: 90vh solid yellow;
+		
+	z-index: 3;
+}
+
+
+
